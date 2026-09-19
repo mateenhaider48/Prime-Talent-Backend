@@ -156,7 +156,7 @@ export const sendTestPush =
         title: "Test Notification 🔔",
         message:
           "Web Push notification is working successfully!",
-        url: "/",
+        url: "/admin",
       });
 
       return res.status(200).json({
